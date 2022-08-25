@@ -1,0 +1,105 @@
+html {
+    background-color: white;
+}
+
+.formulario{
+    width: 480px;
+    background: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 7px;
+    font-family: KohinoorBangla;
+    font-size: 15px;
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+::placeholder { 
+  color: #304a63;
+}
+.btn-enviar {
+    width: 95%;
+    background:#9d6978;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+input { 
+    width: 95%; 
+    background: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    font-family: monospace;
+    font-size: 15px;
+  }
+  .text-platzi {
+    color:  #343a40 !important;
+  }
+  
+  .btn-platzi {
+    background-color:  #343a40;
+    color: white;
+  }
+  
+  .btn-platzi:hover {
+    background-color:  #343a40;
+  }
+  
+  #header img {
+    width: 80px;
+  }
+  
+  #main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+  }
+  
+  #carousel {
+    position: relative;
+  }
+  
+  #carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  #carousel .overlay .container,
+  #carousel .overlay .row {
+    height: 100%;
+  }
+  
+  #place-time {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  #place-time img {
+    max-width: 100%;
+  }
+  
+  #footer {
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+  }
+  
+  #footer a {
+    color: white;
+  }
